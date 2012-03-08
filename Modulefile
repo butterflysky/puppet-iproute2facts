@@ -1,5 +1,5 @@
 name    'aedwards-iproute2facts'
-version '0.0.1'
+version '0.1.0'
 source 'UNKNOWN'
 author 'aedwards'
 license 'Apache License 2.0'
