@@ -43,7 +43,7 @@ deviceinfo.keys.each do |key|
 
         Facter.add(factname_real) do
             setcode do
-                line[firstspace..-1].gsub(/\s+/,' ').gsub(/^\s+/,'').gsub(/\s+$/,'') + "\n"
+                line[firstspace..-1].gsub(/\s+/,' ').gsub(/^\s+/,'').gsub(/\s+$/,'')
             end
         end
     end
